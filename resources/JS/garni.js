@@ -1,3 +1,4 @@
+/*
 $(document).ready(function() {
   // Adiciona um manipulador de eventos 'click' a todas as imagens com a classe 'active-img'.
   $(".active-img").click(function(e) {
@@ -9,13 +10,13 @@ $(document).ready(function() {
     var contentUrl;
     switch ($(this).attr('alt')) {
       case 'GAM':
-        contentUrl = '/Project/template/templateGarnishes/gam.html';
+        contentUrl = 'template/templateGarnishes/gam.html';
         break;
       case 'GTM':
-        contentUrl = '/Project/template/templateGarnishes/gtm.html';
+        contentUrl = 'template/templateGarnishes/gtm.html';
         break;
       case 'UTI':
-        contentUrl = '/Project/template/templateGarnishes/uti.html';
+        contentUrl = 'template/templateGarnishes/uti.html';
         break;
     }
 
@@ -27,7 +28,7 @@ $(document).ready(function() {
   });
 });
 
-/*---- Função para criar um efeito de “destaque” onde a imagem clicada se expande e as outras diminuem ----*/
+---- Função para criar um efeito de “destaque” onde a imagem clicada se expande e as outras diminuem ----
 $(document).ready(function(){
   // A função $ (document) .on () anexa um manipulador de eventos, neste caso, um manipulador de clique, aos elementos selecionados, neste caso, todas as imagens dentro de elementos com a classe 'image-content2'.
   $(document).on('click', '.image-content2 img', function(){
@@ -37,3 +38,5 @@ $(document).ready(function(){
     $(this).addClass('active-img').css('width', '10%');
   });
 });
+
+*/

@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
   // Carrega a seção "Início" quando a página é inicialmente carregada.
-  var page = "/Project/template/index.html"; // Substitua por sua URL da página Início
+  var page = "template/index.html"; // Substitua por sua URL da página Início
   $("#content").load(page, function() {
     // Rolagem para o topo da página.
     $(window).scrollTop(0);
@@ -201,7 +201,7 @@ $(document).ready(function() {
     var clickedLink = $(this);
 
     // Verifica se o link clicado é a página inicial.
-    if (page !== "/Project/index.html") {
+    if (page !== "index.html") {
       // Carrega o conteúdo da página correspondente no elemento com o ID 'content'.
       $("#content").load(page, function() {
         // Rolagem para o topo da página.
