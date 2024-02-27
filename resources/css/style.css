@@ -2219,7 +2219,7 @@ footer div {
 }
 
 
-.termosSection {
+.termosPrivacySection {
   width: 100%;
   height: 100%;
   display: flex;
@@ -2229,17 +2229,17 @@ footer div {
   background-color: #000000;
   }
   
-  .termosSection .termTitle{
+  .termosPrivacySection .termTitle{
     width: 80%;
   }
-  .termosSection .termTitle h2 {
+  .termosPrivacySection .termTitle h2 {
     margin-top: 2rem;
   }
-  .termosSection .termosContainer {
+  .termosPrivacySection .termosPrivacy-Container {
     width: 80%;
   }
   
-  .termosSection .termosContainer ol li {
+  .termosPrivacySection .termosPrivacy-Container ol li {
     font-size: 1.1rem;
     text-align:start;
   }
